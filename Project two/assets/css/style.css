@@ -8,16 +8,26 @@ a {
   color:red;
 }
 
-img {
-  width: 400px;
-}
-
 .essay {
-  font-family: times;
-  width: 800px;
-  margin: auto;
+  font-family: arial;
+  width: 700px;
+  margin-left: 600px;
 }
 
 blockquote {
   font-style:italic;
+}
+.image2{
+  position: fixed;
+  margin-top: 30px;
+  z-index: -1;
+  margin-left: 10px;
+}
+.image3{
+  position: fixed;
+  z-index: -2;
+  margin-top: 400px;
+  margin-left: 10px;
+
+
 }
