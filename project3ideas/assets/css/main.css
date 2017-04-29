@@ -1,0 +1,43 @@
+.blueheader{
+  color: blue;
+  font-size: 40px;
+}
+.redheader{
+  color: red;
+  font-size: 24px;
+}
+.redheader.hide{
+  display: none;
+}
+
+.content{
+  width: 700px;
+  margin-left: 300px;
+  font-size: 24px;
+  font-family: arial;
+  font-weight: lighter;
+}
+
+.number{
+  font-weight: bold;
+  font-size: 10px;
+  border: 1px solid red;
+  color: red;
+  padding: 2px;
+}
+
+.number:hover{
+  background-color: red;
+  color: #fff;
+}
+
+.footnote{
+  position: fixed;
+  bottom: 30px;
+  left: 18px;
+  display: none;
+}
+
+.footnote.showme{
+  display: block;
+}
