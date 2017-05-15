@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.nav {
+  width: 12.5%;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  background-color: red;
+  height:100vh;
+}
+
+.main {
+  position: relative;
+  left:12.5%;
+  background-color: lightpink;
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.col__1of8 {
+  flex:0 0 12.5%;
+}
+
+.col__5of8 {
+  flex:0 0 62.2%;
+}
+
+.content {
+  margin: 10px;
+  padding:10px;
+
+}
