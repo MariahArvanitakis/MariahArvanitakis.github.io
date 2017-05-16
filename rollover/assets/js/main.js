@@ -28,6 +28,7 @@ $('.oase').mouseenter(function() {
 
 
 
+
       $('.landscape').mouseenter(function() {
          $('.landscape__image').addClass('showme');
        });
