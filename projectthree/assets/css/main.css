@@ -79,12 +79,32 @@ a:active {
   margin: 10px;
   padding:10px;
 
-
-
 }
 .text .content{
   font-size: 30px;
 
+}
+
+.rollover{
+  color: red;
+}
+
+.rollover: hover{
+  color: blue;
+}
+
+.blur{
+  position: fixed;
+  opacity: 0;
+  filter: blur(20px);
+  pointer-events: none;
+  transition: all 2s;
+}
+
+.blur .showme{
+  opacity: 1;
+  transition: all 2s;
+  filter: blur(0px);
 }
 
 .footnotes{
