@@ -85,27 +85,65 @@ a:active {
 
 }
 
-.rollover{
-  color: red;
-}
+/* These are general classes */
 
-.rollover: hover{
-  color: blue;
-}
-
-.blur{
+.blur {
   position: fixed;
   opacity: 0;
   filter: blur(20px);
-  pointer-events: none;
   transition: all 2s;
+  pointer-events: none;
 }
 
-.blur .showme{
+.blur.showme {
   opacity: 1;
   transition: all 2s;
   filter: blur(0px);
 }
+
+
+.rotate {
+  position: fixed;
+  visibility: hidden;
+  transform: scale(0) rotate(0deg);
+  transition: all 2s;
+  pointer-events: none;
+  top: 0;
+  left: -50vw;
+}
+
+.rotate.showme {
+  transform: scale(1) rotate(360deg);
+  display: block;
+  transition: all 2s;
+  visibility: visible;
+  top: 0px;
+  left: 50vw;
+}
+
+
+/* Image layout ie specific classes*/
+
+.dior__image {
+  top: 20px;
+  right: 100px;
+}
+
+.apple__image {
+  top:0px;
+  right:100px;
+}
+
+.comme__image {
+  top: 20px;
+  right: 100px;
+}
+
+.nespresso__image {
+  top: 20px;
+  right: 100px;
+}
+
 
 .footnotes{
   font-size: 12px;
