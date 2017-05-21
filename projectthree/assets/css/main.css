@@ -143,12 +143,12 @@ a:active {
 
 
 .rollover {
-  color: none;
+  color: red;
   font-family: arial;
 }
 
 .rollover:hover {
-  color: none;
+  color: blue;
 }
 
 .blur {
@@ -213,6 +213,14 @@ a:active {
 }
 
 .nespresso__image {
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.euro__image {
   max-width: 20%;
   align-self: center;
   height: auto;

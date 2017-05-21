@@ -23,6 +23,15 @@ $(document).ready(function() {
 
 
 
+    $(".euro").mouseenter(function() {
+      $(".euro__image").addClass("showme");
+    });
+
+    $(".euro").mouseleave(function() {
+      $(".euro__image").removeClass("showme");
+    });
+
+
 
 
     $(".comme").mouseenter(function() {
@@ -55,7 +64,7 @@ $(document).ready(function() {
 
 
 
-    
+
         $('.navtwo').click(function() {
           $('.menutwo').toggleClass('showme');
         });
