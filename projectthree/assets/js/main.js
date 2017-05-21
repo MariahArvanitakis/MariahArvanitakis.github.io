@@ -55,5 +55,9 @@ $(document).ready(function() {
 
 
 
+    
+        $('.navtwo').click(function() {
+          $('.menutwo').toggleClass('showme');
+        });
 
 });
