@@ -141,6 +141,15 @@ a:active {
 
 /* These are general classes effects for images*/
 
+
+.rollover {
+  color: red;
+}
+
+.rollover:hover {
+  color: blue;
+}
+
 .blur {
   position: fixed;
   opacity: 0;
@@ -187,21 +196,27 @@ a:active {
 }
 
 .apple__image {
-
-  width: 200px;
-  height: 200px;
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
 }
 
 .comme__image {
-
-  width: 200px;
-  height: 200px;
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
 }
 
 .nespresso__image {
-
-  width: 200px;
-  height: 200px;
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
 }
 
 /* all footnotes*/
