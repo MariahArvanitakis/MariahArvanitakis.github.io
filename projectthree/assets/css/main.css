@@ -38,20 +38,47 @@ a:active {
     text-decoration: underline;
 }
 
+/* end of links */
+
+
+/* navigation bar*/
 .nav {
-  width: 12.5%;
   position: fixed;
-  top: 0px;
-  left:0px;
-  background-color: red;
-  height:100vh;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  cursor: pointer;
 }
 
+.menu {
+  height: 100vh;
+  width: 15vw;
+  background-color: none;
+  position: fixed;
+  left: -50vw;
+  top: 0px;
+  z-index: 1;
+  transition: all 2s;
+  font-size: 50px;
+
+}
+
+
+/* The added class showme makes the left 0. So it transitions from -50vw offscreen to right 0 on screen.  */
+
+.menu.showme {
+  left: 0;
+  transition: all 2s;
+}
+
+
+/* end of nav*/
+
+
+/* main content*/
 .main {
   position: relative;
-  left:12.5%;
   background-color: none;
-  width: 87.5%
 }
 
 .row {
@@ -59,20 +86,17 @@ a:active {
   flex-wrap:wrap;
 }
 
-.col__1of8 {
-  flex:0 0 12.5%;
+
+.col__1of3 {
+  flex:0 0 20%;
 }
 
-.col__2of8 {
-  flex:0 0 25%;
+.col__2of3 {
+  flex:0 0 60%;
 }
 
-.col__4of8 {
-  flex:0 0 50%;
-}
-
-.col__5of8 {
-  flex:0 0 62.2%;
+.col__3of3 {
+  flex:0 0 20%;
 }
 
 .content {
@@ -85,7 +109,7 @@ a:active {
 
 }
 
-/* These are general classes */
+/* These are general classes effects for images*/
 
 .blur {
   position: fixed;
@@ -125,26 +149,32 @@ a:active {
 /* Image layout ie specific classes*/
 
 .dior__image {
-  top: 20px;
-  right: 100px;
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
 }
 
 .apple__image {
-  top:0px;
-  right:100px;
+
+  width: 200px;
+  height: 200px;
 }
 
 .comme__image {
-  top: 20px;
-  right: 100px;
+
+  width: 200px;
+  height: 200px;
 }
 
 .nespresso__image {
-  top: 20px;
-  right: 100px;
+
+  width: 200px;
+  height: 200px;
 }
 
-
+/* all footnotes*/
 .footnotes{
   font-size: 12px;
   font-family: arial;
