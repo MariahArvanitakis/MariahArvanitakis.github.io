@@ -11,6 +11,8 @@ text-align: center;
 margin-top: 100px;
 }
 
+
+
 /* index page */
 
 
@@ -72,7 +74,7 @@ a:active {
   top: 0px;
   z-index: 1;
   transition: all 1s;
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
   margin-left: 20px;
 
@@ -206,7 +208,7 @@ a:active {
   align-self: center;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 25px;
   margin-top: 150px;
 
 }
@@ -216,7 +218,7 @@ a:active {
   align-self: center;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 25px;
   margin-top: 150px;
 }
 
@@ -225,7 +227,7 @@ a:active {
   align-self: center;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 25px;
   margin-top: 150px;
 }
 
@@ -234,7 +236,7 @@ a:active {
   align-self: center;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 25px;
 
 }
 
@@ -243,7 +245,8 @@ a:active {
   align-self: center;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 25px;
+  margin-top: 300px;
 }
 
 .porsche__image {
@@ -251,7 +254,7 @@ a:active {
   align-self: center;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 25px;
   margin-top: 290px;
 }
 
@@ -261,7 +264,44 @@ a:active {
   align-self: center;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 25px;
+  margin-top: 300px;
+}
+
+
+.items__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+}
+
+.VVD__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 300px;
+}
+
+.NRC__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 300px;
+}
+
+.design__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 300px;
 }
 
 
@@ -271,4 +311,13 @@ a:active {
 .footnotes{
   font-size: 12px;
   font-family: arial;
+}
+
+
+.sup {
+    font-size: 70%;
+    top: -.5em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
