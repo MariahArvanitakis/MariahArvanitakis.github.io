@@ -71,7 +71,7 @@ a:active {
   left: -50vw;
   top: 0px;
   z-index: 1;
-  transition: all 2s;
+  transition: all 1s;
   font-size: 24px;
   text-align: left;
   margin-left: 20px;
@@ -83,7 +83,7 @@ a:active {
 
 .menu.showme {
   left: 0;
-  transition: all 2s;
+  transition: all 0.5s;
 }
 
 .navtwo {
@@ -102,20 +102,17 @@ a:active {
   right: -50vw;
   top: 0px;
   z-index: 1;
-  transition: all 2s;
+  transition: all 0.5s;
   font-size: 24px;
   text-align: right;
   margin-right: 20px;
-
-
 }
-
 
 /* The added class showme makes the left 0. So it transitions from -50vw offscreen to right 0 on screen.  */
 
 .menutwo.showme {
   right: 0;
-  transition: all 2s;
+  transition: all 0.5s;
 }
 
 /* end of nav*/
