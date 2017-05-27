@@ -73,7 +73,8 @@ a:active {
   z-index: 1;
   transition: all 2s;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
 
 }
 
@@ -103,7 +104,8 @@ a:active {
   z-index: 1;
   transition: all 2s;
   font-size: 24px;
-  text-align: center;
+  text-align: right;
+  margin-right: 20px;
 
 
 }
@@ -159,7 +161,6 @@ a:active {
 .rollover {
   color: black;
   background-color: yellow;
-  font-family: arial;
 }
 
 .rollover:hover {
@@ -209,6 +210,8 @@ a:active {
   height: auto;
   width: auto;
   padding: 20px;
+  margin-top: 150px;
+
 }
 
 .apple__image {
@@ -217,6 +220,7 @@ a:active {
   height: auto;
   width: auto;
   padding: 20px;
+  margin-top: 150px;
 }
 
 .comme__image {
@@ -225,6 +229,7 @@ a:active {
   height: auto;
   width: auto;
   padding: 20px;
+  margin-top: 150px;
 }
 
 .nespresso__image {
@@ -233,6 +238,7 @@ a:active {
   height: auto;
   width: auto;
   padding: 20px;
+
 }
 
 .euro__image {
@@ -242,6 +248,27 @@ a:active {
   width: auto;
   padding: 20px;
 }
+
+.porsche__image {
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  margin-top: 290px;
+}
+
+
+.aldi__image {
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+
+
 
 /* all footnotes*/
 .footnotes{

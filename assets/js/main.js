@@ -45,9 +45,6 @@ $(document).ready(function() {
 
 
 
-
-
-
     $(".nespresso").mouseenter(function() {
       $(".nespresso__image").addClass("showme");
     });
@@ -55,6 +52,28 @@ $(document).ready(function() {
     $(".nespresso").mouseleave(function() {
       $(".nespresso__image").removeClass("showme");
     });
+
+
+
+        $(".porsche").mouseenter(function() {
+          $(".porsche__image").addClass("showme");
+        });
+
+        $(".porsche").mouseleave(function() {
+          $(".porsche__image").removeClass("showme");
+        });
+
+
+
+        $(".aldi").mouseenter(function() {
+          $(".aldi__image").addClass("showme");
+        });
+
+        $(".aldi").mouseleave(function() {
+          $(".aldi__image").removeClass("showme");
+        });
+
+
 
 
 
@@ -72,7 +91,7 @@ $(document).ready(function() {
 
 
 
-        $(document).on('click', 'a', function(event){
+        $(document).on('click', 'a.scrollto', function(event){
             event.preventDefault();
 
             $('html, body').animate({
