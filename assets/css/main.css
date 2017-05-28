@@ -74,7 +74,7 @@ a:active {
   top: 0px;
   z-index: 1;
   transition: all 1s;
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
   margin-left: 20px;
 
@@ -105,7 +105,7 @@ a:active {
   top: 0px;
   z-index: 1;
   transition: all 0.5s;
-  font-size: 24px;
+  font-size: 15px;
   text-align: right;
   margin-right: 20px;
 }
@@ -301,8 +301,27 @@ a:active {
   height: auto;
   width: auto;
   padding: 25px;
-  margin-top: 300px;
+  margin-top: 250px;
 }
+
+.schiphol__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 250px;
+}
+
+.wayfinding__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 250px;
+}
+
 
 
 

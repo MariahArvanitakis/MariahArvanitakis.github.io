@@ -117,6 +117,30 @@ $(document).ready(function() {
 
 
 
+                $(".schiphol").mouseenter(function() {
+                  $(".schiphol__image").addClass("showme");
+                });
+
+                $(".schiphol").mouseleave(function() {
+                  $(".schiphol__image").removeClass("showme");
+                });
+
+
+
+
+                $(".wayfinding").mouseenter(function() {
+                  $(".wayfinding__image").addClass("showme");
+                });
+
+                $(".wayfinding").mouseleave(function() {
+                  $(".wayfinding__image").removeClass("showme");
+                });
+
+
+
+
+
+
 
     $('.nav').click(function() {
       $('.menu').toggleClass('showme');
