@@ -859,6 +859,16 @@ a:active {
   margin-right: 40px;
 }
 
+.friends__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 350px;
+}
+
+
 
 
 
