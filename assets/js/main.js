@@ -172,6 +172,78 @@ $(document).ready(function() {
 
 
 
+                $(".flowers").mouseenter(function() {
+                  $(".flowers__image").addClass("showme");
+                });
+
+                $(".flowers").mouseleave(function() {
+                  $(".flowers__image").removeClass("showme");
+                });
+
+
+
+                $(".authorship").mouseenter(function() {
+                  $(".authorship__image").addClass("showme");
+                });
+
+                $(".authorship").mouseleave(function() {
+                  $(".authorship__image").removeClass("showme");
+                });
+
+
+
+
+
+                $(".postwar").mouseenter(function() {
+                  $(".postwar__image").addClass("showme");
+                });
+
+                $(".postwar").mouseleave(function() {
+                  $(".postwar__image").removeClass("showme");
+                });
+
+
+
+
+
+                $(".negotiating").mouseenter(function() {
+                  $(".negotiating__image").addClass("showme");
+                });
+
+                $(".negotiating").mouseleave(function() {
+                  $(".negotiating__image").removeClass("showme");
+                });
+
+
+
+
+                $(".moma").mouseenter(function() {
+                  $(".moma__image").addClass("showme");
+                });
+
+                $(".moma").mouseleave(function() {
+                  $(".moma__image").removeClass("showme");
+                });
+
+
+
+
+                $(".encyclo").mouseenter(function() {
+                  $(".encyclo__image").addClass("showme");
+                });
+
+                $(".encyclo").mouseleave(function() {
+                  $(".encyclo__image").removeClass("showme");
+                });
+
+
+
+
+
+
+
+
+
 
 
 
