@@ -241,17 +241,7 @@ $(document).ready(function() {
 
 
 
-                $(".friends").mouseenter(function() {
-                  $(".friends__image").addClass("showme");
-                });
-
-                $(".friends").mouseleave(function() {
-                  $(".friends__image").removeClass("showme");
-                });
-
-
-
-
+            
 
 
 
