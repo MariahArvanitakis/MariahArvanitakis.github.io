@@ -139,6 +139,40 @@ $(document).ready(function() {
 
 
 
+                $(".museum").mouseenter(function() {
+                  $(".museum__image").addClass("showme");
+                });
+
+                $(".museum").mouseleave(function() {
+                  $(".museum__image").removeClass("showme");
+                });
+
+
+
+
+                $(".team").mouseenter(function() {
+                  $(".team__image").addClass("showme");
+                });
+
+                $(".team").mouseleave(function() {
+                  $(".team__image").removeClass("showme");
+                });
+
+
+
+
+                $(".rhetoric").mouseenter(function() {
+                  $(".rhetoric__image").addClass("showme");
+                });
+
+                $(".rhetoric").mouseleave(function() {
+                  $(".rhetoric__image").removeClass("showme");
+                });
+
+
+
+
+
 
 
 

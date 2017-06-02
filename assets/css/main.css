@@ -322,6 +322,36 @@ a:active {
   margin-top: 250px;
 }
 
+.museum__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 350px;
+  margin-right: 40px;
+}
+
+.team__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 350px;
+  margin-right: 40px;
+}
+
+.rhetoric__image{
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 350px;
+  margin-right: 40px;
+}
+
 
 
 
