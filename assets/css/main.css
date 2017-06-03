@@ -449,6 +449,9 @@ template {
   display: none;
 }
 
+
+
+
 /* index page */
 
 .indexpage{
@@ -457,9 +460,8 @@ text-align: center;
 margin-top: 100px;
 }
 
+/* end index page */
 
-
-/* index page */
 
 
 
@@ -509,6 +511,7 @@ a:active {
   left: 10px;
   z-index: 2;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .menu {
@@ -520,7 +523,7 @@ a:active {
   top: 0px;
   z-index: 1;
   transition: all 1s;
-  font-size: 15px;
+  font-size: 18px;
   text-align: left;
   margin-left: 20px;
 
@@ -540,6 +543,7 @@ a:active {
   right: 10px;
   z-index: 2;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .menutwo {
@@ -551,7 +555,7 @@ a:active {
   top: 0px;
   z-index: 1;
   transition: all 0.5s;
-  font-size: 15px;
+  font-size: 18px;
   text-align: right;
   margin-right: 20px;
 }
@@ -564,6 +568,21 @@ a:active {
 }
 
 /* end of nav*/
+
+
+
+/*images page */
+
+
+
+
+
+
+/*images page */
+
+
+
+
 
 
 /* main content*/
@@ -850,16 +869,15 @@ a:active {
   margin-right: 40px;
 }
 
-.encyclo__image{
+.dumbar__image {
   max-width: 20%;
   align-self: center;
   height: auto;
   width: auto;
   padding: 25px;
-  margin-top: 350px;
-  margin-right: 40px;
-}
+  margin-top: 150px;
 
+}
 
 
 

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bibliography</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+    <style>
+
+
+    .draggable {
+       width: 150px;
+       height: 150px;
+       text-align: center;
+       padding: 1px 5px;
+       margin: auto;
+       float: left;
+    }
+
+    </style>
+
+
+    <script>
+    $(function () {
+      $("#set div").draggable({
+      stack: "#set div"
+     });
+    });
+     </script>
+
+
+
+  </head>
+  <body>
+
+<!-- page name -->
+
+<div class="imagespage">
+Image Index
+<br>
+<br>
+
+<!-- navigation -->
+<div class="navtwo">
+Menu
+</div>
+
+<div class="menutwo">
+  <div class="menutwo__list">
+  <br>
+  <br>
+  <a href="index.html">Home</a><br>
+  <a href="images.html">Image Index</a><br>
+  <a href="reader.html">Reader</a><br>
+    </div>
+  </div>
+
+  <!-- start dragable images -->
+  <div id="set">
+  <div class="draggable"style="position: relative;z-index: 3;
+  left: 174px;top: 97px;">
+  <img src="assets/images/aldi.png" style="height: auto; width: auto; max-width: 900px; max-height: 900px;">
+  </div>
+
+  <div class="draggable"style="position: relative;z-index: 2;left: 85px;top: 130px;">
+  <img src="assets/images/EuroCoin.jpg" style="width:350px;height:350px">
+  </div>
+
+  <div class="draggable"style="position: relative;z-index: 1;left: 1px;top: 160px;">
+  <img src="assets/images/CommeDes.jpg" style="width:350px;height:350px">
+  </div>
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+  </body>
+</html>

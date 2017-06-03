@@ -228,28 +228,15 @@ $(document).ready(function() {
 
 
 
-                $(".encyclo").mouseenter(function() {
-                  $(".encyclo__image").addClass("showme");
+
+
+                $(".dumbar").mouseenter(function() {
+                  $(".dumbar__image").addClass("showme");
                 });
 
-                $(".encyclo").mouseleave(function() {
-                  $(".encyclo__image").removeClass("showme");
+                $(".dumbar").mouseleave(function() {
+                  $(".dumbar__image").removeClass("showme");
                 });
-
-
-
-
-
-
-
-              
-
-
-
-
-
-
-
 
 
 
@@ -267,7 +254,6 @@ $(document).ready(function() {
 
 
 
-
         $('.navtwo').click(function() {
           $('.menutwo').toggleClass('showme');
         });
@@ -275,16 +261,16 @@ $(document).ready(function() {
 
 
 
-        $(document).on('click', 'a.scroll', function(event){
-            event.preventDefault();
-
-            $('html, body').animate({
-                scrollTop: $( $.attr(this, 'href') ).offset().top
-            }, 500);
-        });
 
 
 
+        $(document).on('click', 'a.scrollto', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
 
 
 
