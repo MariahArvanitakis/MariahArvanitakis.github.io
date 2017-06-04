@@ -717,6 +717,30 @@ $(document).ready(function() {
 
 
 
+                $(".web").mouseenter(function() {
+                  $(".web__image").addClass("showme");
+                });
+
+                $(".web").mouseleave(function() {
+                  $(".web__image").removeClass("showme");
+                });
+
+
+
+
+                $(".biz").mouseenter(function() {
+                  $(".biz__image").addClass("showme");
+                });
+
+                $(".biz").mouseleave(function() {
+                  $(".biz__image").removeClass("showme");
+                });
+
+
+
+
+
+
 
 
     $('.nav').click(function() {

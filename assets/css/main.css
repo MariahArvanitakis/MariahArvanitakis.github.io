@@ -1247,6 +1247,29 @@ margin-top: 50px;
 
 
 
+.web__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.biz__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 250px;
+}
+
+
+
+
 
 
 
