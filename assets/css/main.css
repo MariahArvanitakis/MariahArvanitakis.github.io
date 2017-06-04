@@ -591,10 +591,11 @@ a:active {
   background-color: none;
 }
 
-.row {
+.row{
   display: flex;
   flex-wrap:wrap;
 }
+
 
 
 .col__1of3 {
@@ -671,7 +672,7 @@ a:active {
 
 .dior__image {
   max-width: 20%;
-  align-self: center;
+  align-self: baseline;
   height: auto;
   width: auto;
   padding: 25px;
@@ -681,7 +682,7 @@ a:active {
 
 .apple__image {
   max-width: 15%;
-  align-self: center;
+  align-self: baseline;
   height: auto;
   width: auto;
   padding: 25px;
@@ -690,7 +691,7 @@ a:active {
 
 .comme__image {
   max-width: 20%;
-  align-self: center;
+  align-self: baseline;
   height: auto;
   width: auto;
   padding: 25px;
@@ -699,7 +700,7 @@ a:active {
 
 .nespresso__image {
   max-width: 20%;
-  align-self: center;
+  align-self: baseline;
   height: auto;
   width: auto;
   padding: 25px;
@@ -717,10 +718,9 @@ a:active {
 
 .porsche__image {
   max-width: 20%;
-  align-self: center;
+  align-self: baseline;
   height: auto;
   width: auto;
-  padding: 25px;
   margin-top: 290px;
 }
 
@@ -828,6 +828,16 @@ a:active {
   margin-right: 40px;
 }
 
+.egoism__image{
+  max-width: 20%;
+  align-self: baseline;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 350px;
+  margin-right: 40px;
+}
+
 .postwar__image{
   max-width: 20%;
   align-self: center;
@@ -869,14 +879,369 @@ a:active {
   margin-right: 40px;
 }
 
-.dumbar__image {
+
+.dumbar__image{
   max-width: 20%;
   align-self: center;
   height: auto;
   width: auto;
   padding: 25px;
   margin-top: 150px;
+}
 
+.publiclib__image {
+  max-width: 20%;
+  align-self: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  margin-top: 50px;
+  }
+
+  .friends__image {
+    max-width: 20%;
+    align-self: center;
+    height: auto;
+    width: auto;
+    padding: 25px;
+    margin-top: 50px;
+    }
+
+    .egoism__image {
+      max-width: 20%;
+      align-self: center;
+      height: auto;
+      width: auto;
+      padding: 25px;
+      margin-top: 50px;
+      }
+
+
+.signs__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.cube__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.makeable__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.modern__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.wine__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.festival__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.book__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.ejac__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+
+.inno__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+
+.theme__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.stamp__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.airport__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.museum__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+.utopia__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.style__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.demo__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.sdumbar__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.logos__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+.dutchif__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.money__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.blackhole__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.custard__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.noise__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 150px;
+}
+
+
+.realistic__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.pragmatic__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.hardnose__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.pussy__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+
+.shirt__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+.victor__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.space__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.phone__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
+}
+
+
+.comp__image{
+max-width: 20%;
+align-self: baseline;
+height: auto;
+width: auto;
+padding: 25px;
+margin-top: 50px;
 }
 
 
