@@ -462,19 +462,55 @@ template {
 
 .homenav{
   font-size:50px;
-  margin-top: 350px;
+  margin-top: 500px;
   text-align: center;
 }
+
+#bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.arrowone{
+margin-left: 550px;
+z-index: 1;
+margin-top: 20px;
+margin-bottom: 500px;
+}
+
+
+.arrowtwo{
+object-position: center;
+z-index: 1;
+margin-top: 1500px;
+margin-bottom: 0px;
+}
+
 
 /* end index page */
 
 
 /* image index*/
 
-.imagespage{
-  font-size: 200px;
-  color: red;
-}
+  #bg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+
 
 
 /* bibliography*/
@@ -489,11 +525,39 @@ template {
 
 }
 
+#bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.arrowoneone{
+margin-left: 550px;
+z-index: 1;
+margin-top: 0px;
+margin-bottom: 400px;
+}
+
+
+.arrowtwotwo{
+object-position: center;
+z-index: 1;
+margin-top: 400px;
+margin-bottom: 10px;
+}
+
+
+
+
 .linksbib{
   font-size:50px;
   margin-top: 150px;
   text-align: center;
-  margin-bottom: 300px;
 }
 
 /* unvisited link */
@@ -533,6 +597,10 @@ a:active {
 }
 
 /* end of links */
+
+
+
+
 
 
 /* navigation bar*/
@@ -1326,7 +1394,3 @@ margin-top: 250px;
     position: relative;
     vertical-align: baseline;
 }
-
-
-
-/* home page*/
