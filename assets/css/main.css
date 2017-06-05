@@ -543,6 +543,7 @@ a:active {
   z-index: 2;
   cursor: pointer;
   font-size: 18px;
+  font-family: arial;
 }
 
 .menu {
@@ -554,9 +555,10 @@ a:active {
   top: 0px;
   z-index: 1;
   transition: all 1s;
-  font-size: 18px;
+  font-size: 14px;
   text-align: left;
   margin-left: 20px;
+  font-family: arial;
 
 }
 
@@ -576,6 +578,7 @@ a:active {
   z-index: 2;
   cursor: pointer;
   font-size: 18px;
+  font-family: arial;
 }
 
 .menutwo {
@@ -587,9 +590,10 @@ a:active {
   top: 0px;
   z-index: 1;
   transition: all 0.5s;
-  font-size: 18px;
+  font-size: 14px;
   text-align: right;
   margin-right: 20px;
+  font-family: arial;
 }
 
 /* The added class showme makes the left 0. So it transitions from -50vw offscreen to right 0 on screen.  */
@@ -622,6 +626,7 @@ a:active {
   position: relative;
   background-color: none;
 }
+
 
 .row{
   display: flex;
@@ -659,6 +664,8 @@ a:active {
 .rollover {
   color: black;
   background-color: yellow;
+  font-family: arial;
+  font-size: 18px;
 }
 
 .rollover:hover {
