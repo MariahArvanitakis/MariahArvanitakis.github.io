@@ -496,6 +496,20 @@ $(document).ready(function() {
 
 
 
+                $(".encyclo").mouseenter(function() {
+                  $(".encyclo__image").addClass("showme");
+                });
+
+                $(".encyclo").mouseleave(function() {
+                  $(".encyclo__image").removeClass("showme");
+                });
+
+
+
+
+
+
+
 
 
                 $(".demo").mouseenter(function() {
