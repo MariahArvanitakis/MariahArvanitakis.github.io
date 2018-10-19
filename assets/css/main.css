@@ -492,6 +492,10 @@ margin-top: 1500px;
 margin-bottom: 10px;
 }
 
+.responsive-image{
+  width: 100%;
+  background-size: 100% 100%;
+}
 
 /* end index page */
 
@@ -505,8 +509,7 @@ margin-bottom: 10px;
     left: 0;
 
     /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
+
   }
 
 
