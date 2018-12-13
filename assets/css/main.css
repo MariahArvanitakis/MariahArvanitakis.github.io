@@ -454,6 +454,7 @@ template {
 
 /* index page */
 .indexpage{
+  background-color: yellow;
   font-size: 200px;
   color: red;
   z-index: -1;
