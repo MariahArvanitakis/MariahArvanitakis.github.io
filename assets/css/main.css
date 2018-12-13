@@ -478,7 +478,7 @@ template {
 }
 
 .arrowone{
-margin-left: 550px;
+object-position: center;
 z-index: 1;
 margin-top: 20px;
 margin-bottom: 500px;

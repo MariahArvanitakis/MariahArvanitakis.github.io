@@ -16,12 +16,14 @@
 
 .intro{
   font-size: 60px;
-  font-family: georgia;
+  font-family: helvetica;
+  margin-left: 600px;
 }
 
 .webcred{
 font-size: 12px;
-font-family: arial;
+font-family: times;
+margin-left: 600px;
 
 
 }
